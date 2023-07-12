@@ -10,7 +10,8 @@
   "scripts": {
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "build": "tsc"
+    "build": "rm -rf dist && tsc",
+    "publish": "npm run build && npm publish --access public"
   },
   "author": "James Menzies",
   "license": "ISC",
