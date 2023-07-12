@@ -1,8 +1,9 @@
 {
-  "name": "ts-library",
+  "name": "@james-menzies/react-components-test",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
